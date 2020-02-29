@@ -7,6 +7,9 @@ body {
   background-size: cover;
   -o-background-size: cover;
 }
+.row {
+  margin-bottom: 100px;
+}
 
 /* Font styles */
 p, li {
@@ -53,9 +56,6 @@ h1 {
   background: url("../assets/DP.jpg") no-repeat center center;
   position: relative;
   min-height: 510px;
-}
-.card-block {
-  min-height: 220px;
 }
 
 /* Component styling */
