@@ -1,7 +1,88 @@
+/* Background styling */
 body {
-  background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+  background-color: black;
+  background: url("../assets/bg-home.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+/* Font styles */
+p, li {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-weight: 300;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+/* Navbar element styling */
+.navbar-dark {
+  background-image: linear-gradient(to right, rgba(0,0,0,1) , rgba(0,0,0,0.5));
+  padding-bottom: 15px;
+}
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 15px;
+}
+.active {
+  border-bottom: 0.5px solid #fff;
+}
+
+/* Main page element styling */ 
+.content-box {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 80px;
+  margin-top: 50px;
+}
+.image-box {
+  background: url("../assets/DP.jpg") no-repeat center center;
+  position: relative;
+  min-height: 510px;
+}
+.card-block {
+  min-height: 220px;
+}
+
+/* Component styling */
+.btn-dark {
+  border-radius: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 0px;
+  padding: 10px 20px;
+}
+.caption {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,0.9);
+  padding: 20px;
+  width: 100%;
+  font-size: 12px;
+}
+
+/* Main page element styling - xs */
+@media only screen and (max-width: 575px) {
+  .content-box {
+    padding: 40px;
+    margin-top: 0px;
+  }
+  .navbar-dark {
+    background-color: black;
+    margin-top: 20px;
+  }
 }
