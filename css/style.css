@@ -75,6 +75,20 @@ h1 {
   font-size: 12px;
 }
 
+/* Form element styling */
+form {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.form-control {
+  background-color: black;
+  border: 0px;
+  border-radius: 0px;
+  color: lightgray;
+}
+
 /* Main page element styling - xs */
 @media only screen and (max-width: 575px) {
   .content-box {
